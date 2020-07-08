@@ -1,0 +1,31 @@
+html,body{
+    background-color: lightblue;
+
+}
+
+legend{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 1px 0px purple;
+}
+
+#search{
+    font-size: 40px;
+    padding: 20px;
+}
+
+#form-container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#btn-info{
+    padding: 40px;
+}
+
+#header{
+    font-size: 40px;
+    font-weight: bolder;
+  }
