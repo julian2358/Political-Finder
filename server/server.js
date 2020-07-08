@@ -12,9 +12,9 @@ const html = require('html')
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
+// Serve the static files from the React app
+app.use(express.static(path.join(__dirname, '../client/build')))
 
-// add css and images
-app.use(express.static('public'))
 
 
 
