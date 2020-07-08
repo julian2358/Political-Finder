@@ -11,5 +11,8 @@
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "heroku": "^7.42.2"
+  }
 }
